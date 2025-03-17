@@ -1,11 +1,11 @@
 
 let potteryId = 1
 
-export const makePottery = (Shape, Weight, Height,) => {
+export const makePottery = (shape, weight, height) => {
     const pottery = {
-        Shape: Shape,
-        Weight: Weight,
-        Height: Height,
+        shape: shape,
+        weight: weight,
+        height: height,
         id: potteryId
     }
     potteryId++
